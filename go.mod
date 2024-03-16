@@ -15,6 +15,9 @@ require (
 	github.com/google/gopacket v1.1.19
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/hashicorp/golang-lru/v2 v2.0.2
+	github.com/khulnasoft/tracee/api v0.0.0-20240316182458-3b2ac339018f
+	github.com/khulnasoft/tracee/signatures/helpers v0.0.0-20240316183033-20a398a904a8
+	github.com/khulnasoft/tracee/types v0.0.0-20240316182458-3b2ac339018f
 	github.com/mennanov/fmutils v0.2.0
 	github.com/minio/sha256-simd v1.0.1
 	github.com/mitchellh/mapstructure v1.5.0
@@ -68,9 +71,6 @@ require (
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
-	github.com/khulnasoft/tracee/api v0.0.0-20240316182458-3b2ac339018f // indirect
-	github.com/khulnasoft/tracee/signatures/helpers v0.0.0-20240316183033-20a398a904a8 // indirect
-	github.com/khulnasoft/tracee/types v0.0.0-20240316182458-3b2ac339018f // indirect
 	github.com/klauspost/cpuid/v2 v2.2.3 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect

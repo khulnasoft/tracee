@@ -52,7 +52,7 @@ docker run --name tracee -it --rm \
   -v /etc/os-release:/etc/os-release-host:ro \
   -v /var/run:/var/run:ro \
   -p 3366:3366 \
-  aquasec/tracee:latest \
+  khulnasoft/tracee:latest \
   --metrics 
 ```
 

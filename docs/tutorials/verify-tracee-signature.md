@@ -12,10 +12,10 @@ Before you begin, ensure that you have the following installed:
 Tracee images are signed with cosign keyless. To verify the signature we can run the command:
 
 ```console
-cosign verify aquasec/tracee:tag-name  --certificate-oidc-issuer https://token.actions.githubusercontent.com --certificate-identity-regexp https://github.com/khulnasoft/tracee | jq
+cosign verify khulnasoft/tracee:tag-name  --certificate-oidc-issuer https://token.actions.githubusercontent.com --certificate-identity-regexp https://github.com/khulnasoft/tracee | jq
 ```
 
-Note that all of the tag-names can be found on the [Tracee Docker Hub Registry](https://hub.docker.com/r/aquasec/tracee/tags).
+Note that all of the tag-names can be found on the [Tracee Docker Hub Registry](https://hub.docker.com/r/khulnasoft/tracee/tags).
 
 The output should look similar to the following:
 ![Tracee Signature Scanning](../images/signatures.png)

@@ -3,7 +3,7 @@
 #
 # This workflow ensures that the main branch is ready for release and that all
 # build configuration files are valid. Also scans tracee container images for
-# vulnerabilities, and publishes to DockerHub as aquasec/tracee:dev.
+# vulnerabilities, and publishes to DockerHub as khulnasoft/tracee:dev.
 #
 name: Release Snapshot
 on:
@@ -47,13 +47,13 @@ jobs:
           exit-code: "1"
       - name: Publish to docker.io registry
         run: |
-          docker image tag tracee:latest aquasec/tracee:x86_64-dev
-          docker image push aquasec/tracee:x86_64-dev
+          docker image tag tracee:latest khulnasoft/tracee:x86_64-dev
+          docker image push khulnasoft/tracee:x86_64-dev
         shell: bash
       # Disabled to avoid generating too many sigstore cosign signatures
       # - name: Sign Docker image
       #   run: |
-      #     cosign sign -y $(docker inspect --format='{{index .RepoDigests 0}}' aquasec/tracee:x86_64-dev)
+      #     cosign sign -y $(docker inspect --format='{{index .RepoDigests 0}}' khulnasoft/tracee:x86_64-dev)
       #   shell: bash
   release-snapshot-aarch64:
     name: Release Snapshot (aarch64)
@@ -91,13 +91,13 @@ jobs:
           exit-code: "1"
       - name: Publish to docker.io registry
         run: |
-          docker image tag tracee:latest aquasec/tracee:aarch64-dev
-          docker image push aquasec/tracee:aarch64-dev
+          docker image tag tracee:latest khulnasoft/tracee:aarch64-dev
+          docker image push khulnasoft/tracee:aarch64-dev
         shell: bash
       # Disabled to avoid generating too many sigstore cosign signatures
       # - name: Sign Docker image
       #   run: |
-      #     cosign sign -y $(docker inspect --format='{{index .RepoDigests 0}}' aquasec/tracee:aarch64-dev)
+      #     cosign sign -y $(docker inspect --format='{{index .RepoDigests 0}}' khulnasoft/tracee:aarch64-dev)
       #   shell: bash
   release-snapshot:
     name: Release Snapshot
@@ -125,13 +125,13 @@ jobs:
       - name: Publish to docker.io registry
         run: |
           export DOCKER_CLI_EXPERIMENTAL=enabled
-          docker manifest create aquasec/tracee:dev \
-            aquasec/tracee:x86_64-dev \
-            aquasec/tracee:aarch64-dev
-          docker manifest push aquasec/tracee:dev
+          docker manifest create khulnasoft/tracee:dev \
+            khulnasoft/tracee:x86_64-dev \
+            khulnasoft/tracee:aarch64-dev
+          docker manifest push khulnasoft/tracee:dev
         shell: bash
       # Disabled to avoid generating too many sigstore cosign signatures
       # - name: Sign Docker image
       #   run: |
-      #     cosign sign -y aquasec/tracee:dev
+      #     cosign sign -y khulnasoft/tracee:dev
       #   shell: bash

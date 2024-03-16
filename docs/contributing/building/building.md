@@ -32,7 +32,7 @@
 3. **Clone** [tracee repository](https://github.com/khulnasoft/tracee/)
 
     ```console
-    git clone git@github.com:aquasecurity/tracee
+    git clone git@github.com:khulnasoft/tracee
     ```
 
     ```text

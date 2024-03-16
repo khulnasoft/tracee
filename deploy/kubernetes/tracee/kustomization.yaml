@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
   - tracee.yaml
 images:
-  - name: docker.io/aquasec/tracee
+  - name: docker.io/khulnasoft/tracee
     newName: tracee
     newTag: latest

@@ -79,10 +79,10 @@ Tracee's configuration is accessible as a ConfigMap in Kubernetes. Since we inst
 
 ## Optional: Exercising a security event
 
-To see Tracee in action, let's simulate a security event. We'll do a "file-less" execution, which is a common evasion technique used by some malware, and is flagged by Tracee as suspicious activity. To simulate this, we'll use the [tracee-tester](https://registry.hub.docker.com/r/aquasec/tracee-tester) example image it will simulate the suspicious activity without harming your environment.
+To see Tracee in action, let's simulate a security event. We'll do a "file-less" execution, which is a common evasion technique used by some malware, and is flagged by Tracee as suspicious activity. To simulate this, we'll use the [tracee-tester](https://registry.hub.docker.com/r/khulnasoft/tracee-tester) example image it will simulate the suspicious activity without harming your environment.
 
 ```console
-kubectl run tracee-tester --image=aquasec/tracee-tester -- TRC-105
+kubectl run tracee-tester --image=khulnasoft/tracee-tester -- TRC-105
 ```
 
 You can see the event in the logs:

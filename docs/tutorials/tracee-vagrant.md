@@ -10,7 +10,7 @@ Prerequisites:
 First, clone the Tracee Git repository and move into the root directory:
 
 ```console
-git clone git@github.com:aquasecurity/tracee.git
+git clone git@github.com:khulnasoft/tracee.git
 
 cd tracee
 ```
@@ -36,7 +36,7 @@ docker run --name tracee -it --rm \
   --pid=host --cgroupns=host --privileged \
   -v /etc/os-release:/etc/os-release-host:ro \
   -v /var/run:/var/run:ro \
-  aquasec/tracee:latest
+  khulnasoft/tracee:latest
 ```
 
 To learn how to install Tracee in a production environment, [check out the Kubernetes guide](./kubernetes-quickstart).

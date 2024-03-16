@@ -2,7 +2,7 @@
 
 > These instructions are meant to describe how to build the official tracee
 > container image, instead of just downloading it from the
-> [Docker Hub](https://hub.docker.com/r/aquasec/tracee).
+> [Docker Hub](https://hub.docker.com/r/khulnasoft/tracee).
 >
 > If you would like to have a local building and execution environment,
 > [read this](./environment.md) instead.
@@ -20,17 +20,17 @@ release):
      latest daily built container images (based on the version currently being
      developed).
 
-     - **aquasec/tracee:dev**
+     - **khulnasoft/tracee:dev**
 
 2. **RELEASE (official versions) container images:**
 
      Preferable alias for latest released image:
 
-     - **aquasec/tracee:latest**
+     - **khulnasoft/tracee:latest**
 
      And the container images for each released version of Tracee:
 
-     - **aquasec/tracee:VERSION**
+     - **khulnasoft/tracee:VERSION**
 
 ## Generating Tracee Container Images
 

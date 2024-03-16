@@ -140,7 +140,7 @@ spec:
         {}
       containers:
         - name: tracee
-          image: "docker.io/aquasec/tracee:0.20.0"
+          image: "docker.io/khulnasoft/tracee:0.20.0"
           imagePullPolicy: IfNotPresent
           command:
             - /tracee/tracee
@@ -238,7 +238,7 @@ spec:
         {}
       containers:
       - name: tracee-operator
-        image: "docker.io/aquasec/tracee:0.20.0"
+        image: "docker.io/khulnasoft/tracee:0.20.0"
         imagePullPolicy: IfNotPresent
         command:
           - /tracee/tracee-operator

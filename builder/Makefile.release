@@ -80,13 +80,13 @@ help:
 	@echo ""
 	@echo "Container images are:"
 	@echo ""
-	@echo "  - aquasec/tracee:latest (embedded eBPF CO-RE obj with BTFHUB support)"
+	@echo "  - khulnasoft/tracee:latest (embedded eBPF CO-RE obj with BTFHUB support)"
 	@echo ""
 	@echo "To PUBLISH a release:"
 	@echo ""
-	@echo "  $$ PUSH_DOCKER_REPO=aquasec/tracee make -f builder/Makefile.release"
+	@echo "  $$ PUSH_DOCKER_REPO=khulnasoft/tracee make -f builder/Makefile.release"
 	@echo ""
-	@echo "  > Pushes artifact found by the latest git tag to docker.io/aquasec/tracee"
+	@echo "  > Pushes artifact found by the latest git tag to docker.io/khulnasoft/tracee"
 	@echo ""
 	@echo "Clean leftovers:"
 	@echo ""
@@ -140,7 +140,7 @@ RELEASE_FILES += $(OUTPUT_DIR)/signatures
 OUT_ARCHIVE := $(OUTPUT_DIR)/tracee-$(ARCH).$(SNAPSHOT_VERSION).tar.gz
 OUT_CHECKSUMS := $(OUTPUT_DIR)/checksum-$(ARCH).$(SNAPSHOT_VERSION).txt
 
-PUSH_DOCKER_REPO ?= aquasec/tracee
+PUSH_DOCKER_REPO ?= khulnasoft/tracee
 
 .PHONY: release
 release: \

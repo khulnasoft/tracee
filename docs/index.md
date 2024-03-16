@@ -41,7 +41,7 @@ docker run --name tracee -it --rm \
   --pid=host --cgroupns=host --privileged \
   -v /etc/os-release:/etc/os-release-host:ro \
   -v /var/run:/var/run:ro \
-  aquasec/tracee:latest
+  khulnasoft/tracee:latest
 ```
 
 For a complete walkthrough please see the [Docker getting started guide][docker-guide].

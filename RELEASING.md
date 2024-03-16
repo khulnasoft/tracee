@@ -5,7 +5,7 @@
    by accident).
 
    ```console
-   gh clone aquasec/tracee
+   gh clone khulnasoft/tracee
    ```
 
 1. Prepare release by creating the PR with the following changes
@@ -37,7 +37,7 @@
    1. Tracee binaries (tracee, tracee-ebpf, tracee-static, tracee-ebpf-static,
       tracee-rules, signatures) in the form of a tar archive `tracee.<VERSION>.tar.gz`
    1. Source code zip and tar files
-   1. Docker images pushed to the aquasec/tracee repository.
+   1. Docker images pushed to the khulnasoft/tracee repository.
 1. Publish the Helm chart by triggering workflow [`.github/workflows/publish-helm.yaml`].
 
 [`.github/workflows/release.yaml`]: ./.github/workflows/release.yaml
