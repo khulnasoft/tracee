@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aquasecurity/libbpfgo/helpers"
+	"github.com/khulnasoft-lab/libbpfgo/helpers"
 
 	"github.com/khulnasoft/tracee/pkg/cmd/initialize"
 	"github.com/khulnasoft/tracee/pkg/config"

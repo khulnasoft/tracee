@@ -15,7 +15,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/aquasecurity/libbpfgo"
+	"github.com/khulnasoft-lab/libbpfgo"
 
 	"github.com/khulnasoft/tracee/pkg/cgroup"
 	cruntime "github.com/khulnasoft/tracee/pkg/containers/runtime"

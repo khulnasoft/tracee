@@ -3,7 +3,7 @@ package config
 import (
 	"io"
 
-	"github.com/aquasecurity/libbpfgo/helpers"
+	"github.com/khulnasoft-lab/libbpfgo/helpers"
 
 	"github.com/khulnasoft/tracee/pkg/containers/runtime"
 	"github.com/khulnasoft/tracee/pkg/dnscache"

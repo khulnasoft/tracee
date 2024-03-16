@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/aquasecurity/libbpfgo/helpers"
+	"github.com/khulnasoft-lab/libbpfgo/helpers"
 
 	"github.com/khulnasoft/tracee/pkg/cmd"
 	"github.com/khulnasoft/tracee/pkg/cmd/flags"

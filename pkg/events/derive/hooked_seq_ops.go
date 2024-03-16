@@ -1,7 +1,7 @@
 package derive
 
 import (
-	"github.com/aquasecurity/libbpfgo/helpers"
+	"github.com/khulnasoft-lab/libbpfgo/helpers"
 
 	"github.com/khulnasoft/tracee/pkg/errfmt"
 	"github.com/khulnasoft/tracee/pkg/events"

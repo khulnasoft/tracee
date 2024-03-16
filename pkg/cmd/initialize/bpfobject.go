@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/aquasecurity/libbpfgo/helpers"
+	"github.com/khulnasoft-lab/libbpfgo/helpers"
 
 	embed "github.com/khulnasoft/tracee"
 	"github.com/khulnasoft/tracee/pkg/config"

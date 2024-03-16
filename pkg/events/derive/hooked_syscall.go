@@ -5,7 +5,7 @@ import (
 
 	lru "github.com/hashicorp/golang-lru/v2"
 
-	"github.com/aquasecurity/libbpfgo/helpers"
+	"github.com/khulnasoft-lab/libbpfgo/helpers"
 
 	"github.com/khulnasoft/tracee/pkg/errfmt"
 	"github.com/khulnasoft/tracee/pkg/events"

@@ -3,7 +3,7 @@ package ebpf
 import (
 	"unsafe"
 
-	bpf "github.com/aquasecurity/libbpfgo"
+	bpf "github.com/khulnasoft-lab/libbpfgo"
 
 	"github.com/khulnasoft/tracee/pkg/errfmt"
 	"github.com/khulnasoft/tracee/pkg/policy"

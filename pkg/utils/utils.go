@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aquasecurity/libbpfgo/helpers"
+	"github.com/khulnasoft-lab/libbpfgo/helpers"
 )
 
 // Cloner is an interface for objects that can be cloned

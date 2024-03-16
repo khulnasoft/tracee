@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	bpf "github.com/aquasecurity/libbpfgo"
+	bpf "github.com/khulnasoft-lab/libbpfgo"
 
 	"github.com/khulnasoft/tracee/pkg/events"
 	"github.com/khulnasoft/tracee/pkg/filters"

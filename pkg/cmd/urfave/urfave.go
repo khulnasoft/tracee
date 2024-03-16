@@ -3,7 +3,7 @@ package urfave
 import (
 	cli "github.com/urfave/cli/v2"
 
-	"github.com/aquasecurity/libbpfgo/helpers"
+	"github.com/khulnasoft-lab/libbpfgo/helpers"
 
 	"github.com/khulnasoft/tracee/pkg/cmd"
 	"github.com/khulnasoft/tracee/pkg/cmd/flags"

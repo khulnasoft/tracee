@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aquasecurity/libbpfgo"
+	"github.com/khulnasoft-lab/libbpfgo"
 
 	"github.com/khulnasoft/tracee/pkg/containers"
 	"github.com/khulnasoft/tracee/pkg/events"

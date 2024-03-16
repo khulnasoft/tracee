@@ -7,14 +7,14 @@ toolchain go1.21.5
 require (
 	github.com/IBM/fluent-forward-go v0.2.1
 	github.com/Masterminds/sprig/v3 v3.2.3
-	github.com/aquasecurity/libbpfgo v0.6.0-libbpf-1.3.0.20240111220235-90dbffffbdab
-	github.com/aquasecurity/libbpfgo/helpers v0.4.6-0.20240111220235-90dbffffbdab
 	github.com/containerd/containerd v1.7.12
 	github.com/docker/docker v24.0.7+incompatible
 	github.com/golang/protobuf v1.5.3
 	github.com/google/gopacket v1.1.19
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/hashicorp/golang-lru/v2 v2.0.2
+	github.com/khulnasoft-lab/libbpfgo v0.6.0-libbpf-1.3
+	github.com/khulnasoft-lab/libbpfgo/helpers v0.0.0-20240316192045-17064a3482b1
 	github.com/khulnasoft/tracee/api v0.0.0-20240316182458-3b2ac339018f
 	github.com/khulnasoft/tracee/signatures/helpers v0.0.0-20240316183033-20a398a904a8
 	github.com/khulnasoft/tracee/types v0.0.0-20240316182458-3b2ac339018f
@@ -31,7 +31,7 @@ require (
 	github.com/urfave/cli/v2 v2.3.0
 	go.uber.org/goleak v1.3.0
 	go.uber.org/zap v1.25.0
-	golang.org/x/sys v0.16.0
+	golang.org/x/sys v0.17.0
 	google.golang.org/grpc v1.61.0
 	google.golang.org/protobuf v1.33.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -48,6 +48,7 @@ require (
 require (
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20230811130428-ced1acdcaa24 // indirect
 	github.com/AdamKorcz/go-118-fuzz-build v0.0.0-20230306123547-8075edf89bb0 // indirect
+	github.com/aquasecurity/libbpfgo v0.3.0-libbpf-0.8.0 // indirect
 	github.com/containerd/log v0.1.0 // indirect
 	github.com/containerd/typeurl/v2 v2.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect

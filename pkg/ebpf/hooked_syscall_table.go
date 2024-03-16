@@ -7,8 +7,8 @@ import (
 	"time"
 	"unsafe"
 
-	bpf "github.com/aquasecurity/libbpfgo"
-	"github.com/aquasecurity/libbpfgo/helpers"
+	bpf "github.com/khulnasoft-lab/libbpfgo"
+	"github.com/khulnasoft-lab/libbpfgo/helpers"
 
 	"github.com/khulnasoft/tracee/pkg/capabilities"
 	"github.com/khulnasoft/tracee/pkg/events"
