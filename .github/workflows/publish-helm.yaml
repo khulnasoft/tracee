@@ -2,7 +2,7 @@
 #
 # This is a manually triggered workflow to package and upload the Helm chart
 # from the specified Git revision (e.g., main branch or v0.7.0 tag) to Helm
-# repository on https://github.com/aquasecurity/helm-charts.
+# repository on https://github.com/khulnasoft/helm-charts.
 #
 name: Publish Helm
 on:
@@ -13,7 +13,7 @@ on:
         required: true
 env:
   HELM_REP: helm-charts
-  GH_OWNER: aquasecurity
+  GH_OWNER: khulnasoft
   CHART_DIR: deploy/helm/tracee
   KIND_VERSION: "v0.14.0"
   KIND_IMAGE: "kindest/node:v1.23.6@sha256:b1fa224cc6c7ff32455e0b1fd9cbfd3d3bc87ecaa8fcb06961ed1afb3db0f9ae"
@@ -36,7 +36,7 @@ jobs:
           python-version: 3.7
       - name: Set up aqua charts
         run: |
-          helm repo add aqua https://aquasecurity.github.io/helm-charts
+          helm repo add aqua https://khulnasoft.github.io/helm-charts
       - name: Setup Chart Linting
         id: lint
         uses: helm/chart-testing-action@dae259e86a35ff09145c0805e2d7dd3f7207064a
