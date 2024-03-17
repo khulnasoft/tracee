@@ -40,7 +40,7 @@ jobs:
         run: |
           make -f builder/Makefile.release SNAPSHOT=1
       - name: Scan Docker Image for Vulnerabilities
-        uses: aquasecurity/trivy-action@master
+        uses: khulnasoft/trivy-action@master
         with:
           image-ref: "tracee:latest"
           severity: "CRITICAL"
@@ -84,7 +84,7 @@ jobs:
         run: |
           make -f builder/Makefile.release SNAPSHOT=1
       - name: Scan Docker Image for Vulnerabilities
-        uses: aquasecurity/trivy-action@master
+        uses: khulnasoft/trivy-action@master
         with:
           image-ref: "tracee:latest"
           severity: "CRITICAL"

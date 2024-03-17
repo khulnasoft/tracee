@@ -1,11 +1,11 @@
 ![Tracee Logo](docs/images/tracee.png)
 
 <!-- links that differ between docs and readme -->
-[installation]:https://aquasecurity.github.io/tracee/latest/docs/install/
-[docker-guide]:https://aquasecurity.github.io/tracee/latest/docs/install/docker/
-[kubernetes-guide]:https://aquasecurity.github.io/tracee/latest/docs/install/kubernetes/
-[prereqs]:https://aquasecurity.github.io/tracee/latest/docs/install/prerequisites/
-[macfaq]:https://aquasecurity.github.io/tracee/latest/docs/advanced/mac/
+[installation]:https://khulnasoft.github.io/tracee/latest/docs/install/
+[docker-guide]:https://khulnasoft.github.io/tracee/latest/docs/install/docker/
+[kubernetes-guide]:https://khulnasoft.github.io/tracee/latest/docs/install/kubernetes/
+[prereqs]:https://khulnasoft.github.io/tracee/latest/docs/install/prerequisites/
+[macfaq]:https://khulnasoft.github.io/tracee/latest/docs/advanced/mac/
 
 Before moving on, please consider giving us a GitHub star ⭐️. Thank you!
 
@@ -15,7 +15,7 @@ Tracee is a runtime security and observability tool that helps you understand ho
 It is using [eBPF technology](https://ebpf.io/what-is-ebpf/) to tap into your system and expose that information as events that you can consume.  
 Events range from factual system activity events to sophisticated security events that detect suspicious behavioral patterns.
 
-To learn more about Tracee, check out the [documentation](https://aquasecurity.github.io/tracee/).
+To learn more about Tracee, check out the [documentation](https://khulnasoft.github.io/tracee/).
 
 ## Quickstart
 
@@ -37,7 +37,7 @@ For a complete walkthrough please see the [Docker getting started guide][docker-
 ### On Kubernetes
 
 ```shell
-helm repo add aqua https://aquasecurity.github.io/helm-charts/
+helm repo add aqua https://khulnasoft.github.io/helm-charts/
 helm repo update
 helm install tracee aqua/tracee --namespace tracee --create-namespace
 ```
@@ -53,7 +53,7 @@ For a complete walkthrough please see the [Kubernetes getting started guide][kub
 Join the community, and talk to us about any matter in the [GitHub Discussions](https://github.com/khulnasoft/tracee/discussions) or [Slack](https://slack.khulnasoft.com).  
 If you run into any trouble using Tracee or you would like to give use user feedback, please [create an issue.](https://github.com/khulnasoft/tracee/issues)
 
-Find more information on [contribution documentation](https://aquasecurity.github.io/tracee/latest/contributing/overview/).
+Find more information on [contribution documentation](https://khulnasoft.github.io/tracee/latest/contributing/overview/).
 
 ## More about Aqua Security
 

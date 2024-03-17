@@ -1,7 +1,7 @@
 apiVersion: v2
 name: tracee
 description: Linux Runtime Security and Forensics using eBPF
-home: https://aquasecurity.github.io/tracee/v0.20.0/
+home: https://khulnasoft.github.io/tracee/v0.20.0/
 sources:
   - https://github.com/khulnasoft/tracee
 

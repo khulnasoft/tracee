@@ -33,7 +33,7 @@ Thus, we will install Tracee inside our cluster through the Tracee Helm Chart.
 Add the Tracee Helm Chart:
 
 ```console
-helm repo add aqua https://aquasecurity.github.io/helm-charts/
+helm repo add aqua https://khulnasoft.github.io/helm-charts/
 ```
 
 Update the repository list on Helm:

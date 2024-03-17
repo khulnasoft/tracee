@@ -1,5 +1,5 @@
 site_name: Tracee
-site_url: https://aquasecurity.github.io/tracee/
+site_url: https://khulnasoft.github.io/tracee/
 site_description: Runtime security and forensics using eBPF.
 docs_dir: docs/
 repo_name: GitHub
