@@ -69,7 +69,7 @@ spec:
 Context is data which is collected along the event. They can be filtered like:
 
 ```yaml
-apiVersion: tracee.aquasec.com/v1beta1
+apiVersion: tracee.khulnasoft.com/v1beta1
 kind: Policy
 metadata:
 	name: sample-context-filter
@@ -244,7 +244,7 @@ filters:
 Events have arguments, which can be filtered. 
 
 ```yaml
-apiVersion: tracee.aquasec.com/v1beta1
+apiVersion: tracee.khulnasoft.com/v1beta1
 kind: Policy
 metadata:
 	name: sample-argument-filter
@@ -274,7 +274,7 @@ tracee -e security_file_open --output json
 Return values can also be filtered.
 
 ```yaml
-apiVersion: tracee.aquasec.com/v1beta1
+apiVersion: tracee.khulnasoft.com/v1beta1
 kind: Policy
 metadata:
 	name: sample-return-value

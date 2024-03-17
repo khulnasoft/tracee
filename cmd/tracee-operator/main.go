@@ -13,7 +13,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 
-	policyv1beta1 "github.com/khulnasoft/tracee/pkg/k8s/apis/tracee.aquasec.com/v1beta1"
+	policyv1beta1 "github.com/khulnasoft/tracee/pkg/k8s/apis/tracee.khulnasoft.com/v1beta1"
 	"github.com/khulnasoft/tracee/pkg/k8s/controller"
 )
 

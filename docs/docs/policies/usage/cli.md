@@ -106,7 +106,7 @@ output:
 ### policy.yaml
 
 ```yaml
-apiVersion: tracee.aquasec.com/v1beta1
+apiVersion: tracee.khulnasoft.com/v1beta1
 kind: Policy
 metadata:
   name: signatures

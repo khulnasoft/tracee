@@ -11,7 +11,7 @@ import (
 
 	"github.com/khulnasoft/tracee/pkg/errfmt"
 	"github.com/khulnasoft/tracee/pkg/events"
-	k8s "github.com/khulnasoft/tracee/pkg/k8s/apis/tracee.aquasec.com/v1beta1"
+	k8s "github.com/khulnasoft/tracee/pkg/k8s/apis/tracee.khulnasoft.com/v1beta1"
 )
 
 // PolicyFile is the structure of the policy file
@@ -60,7 +60,7 @@ func (p PolicyFile) Validate() error {
 		return errfmt.Errorf("policy name %s is invalid: %s", p.GetName(), err)
 	}
 
-	if p.APIVersion != "tracee.aquasec.com/v1beta1" {
+	if p.APIVersion != "tracee.khulnasoft.com/v1beta1" {
 		return errfmt.Errorf("policy %s, apiVersion not supported", p.GetName())
 	}
 

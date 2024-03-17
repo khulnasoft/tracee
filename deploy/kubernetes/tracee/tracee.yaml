@@ -76,7 +76,7 @@ rules:
   - update
   - watch
 - apiGroups:
-  - tracee.aquasec.com
+  - tracee.khulnasoft.com
   resources:
   - policies
   verbs:
@@ -258,7 +258,7 @@ spec:
             port: 8081
 ---
 # Source: tracee/templates/default-policy.yaml
-apiVersion: tracee.aquasec.com/v1beta1
+apiVersion: tracee.khulnasoft.com/v1beta1
 kind: Policy
 metadata:
   name: default-policy

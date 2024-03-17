@@ -17,7 +17,7 @@ import (
 	"github.com/khulnasoft/tracee/pkg/errfmt"
 	"github.com/khulnasoft/tracee/pkg/events"
 	"github.com/khulnasoft/tracee/pkg/k8s"
-	"github.com/khulnasoft/tracee/pkg/k8s/apis/tracee.aquasec.com/v1beta1"
+	"github.com/khulnasoft/tracee/pkg/k8s/apis/tracee.khulnasoft.com/v1beta1"
 	"github.com/khulnasoft/tracee/pkg/logger"
 	"github.com/khulnasoft/tracee/pkg/policy"
 	"github.com/khulnasoft/tracee/pkg/signatures/engine"

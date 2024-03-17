@@ -7,7 +7,7 @@ Tracee policies can be seamlessly integrated into Kubernetes using Custom Resour
 To view existing Tracee policies, use the following command:
 
 ```shell
-kubectl get policies.tracee.aquasec.com
+kubectl get policies.tracee.khulnasoft.com
 ```
 
 One can manage policies using standard kubectl commands. For example, to create, update, or delete a policy:
@@ -21,13 +21,13 @@ kubectl apply -f your-policy.yaml
 Update: Modify an existing policy using the kubectl edit command.
 
 ```shell
-kubectl edit policies.tracee.aquasec.com <policy-name>
+kubectl edit policies.tracee.khulnasoft.com <policy-name>
 ```
 
 Delete: Remove a policy using the kubectl delete command.
 
 ```shell
-kubectl delete policies.tracee.aquasec.com <policy-name>
+kubectl delete policies.tracee.khulnasoft.com <policy-name>
 ```
 
 ## Operator

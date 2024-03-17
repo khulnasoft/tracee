@@ -15,7 +15,7 @@ import (
 	"github.com/khulnasoft/tracee/pkg/cmd/flags"
 	"github.com/khulnasoft/tracee/pkg/config"
 	"github.com/khulnasoft/tracee/pkg/events"
-	k8s "github.com/khulnasoft/tracee/pkg/k8s/apis/tracee.aquasec.com/v1beta1"
+	k8s "github.com/khulnasoft/tracee/pkg/k8s/apis/tracee.khulnasoft.com/v1beta1"
 	"github.com/khulnasoft/tracee/pkg/policy"
 	"github.com/khulnasoft/tracee/pkg/policy/v1beta1"
 	"github.com/khulnasoft/tracee/pkg/utils"

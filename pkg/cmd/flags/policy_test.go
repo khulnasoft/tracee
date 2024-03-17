@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/khulnasoft/tracee/pkg/filters"
-	k8s "github.com/khulnasoft/tracee/pkg/k8s/apis/tracee.aquasec.com/v1beta1"
+	k8s "github.com/khulnasoft/tracee/pkg/k8s/apis/tracee.khulnasoft.com/v1beta1"
 	"github.com/khulnasoft/tracee/pkg/policy/v1beta1"
 )
 

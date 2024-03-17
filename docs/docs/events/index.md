@@ -20,7 +20,7 @@ Events are defined in the [Policy](../policies/index.md) YAML manifest.
 Tracing the `execve` events in a [policy](../policies/index.md):
 
 ```
-apiVersion: tracee.aquasec.com/v1beta1
+apiVersion: tracee.khulnasoft.com/v1beta1
 kind: Policy
 metadata:
 	name: sample-policy
@@ -43,7 +43,7 @@ Events can be part of a set. For example, `default`, `network_events`, `syscalls
 We can ask Tracee to trace a full set, or sets, instead of passing event by event, for example:
 
 ```
-apiVersion: tracee.aquasec.com/v1beta1
+apiVersion: tracee.khulnasoft.com/v1beta1
 kind: Policy
 metadata:
 	name: sample-policy

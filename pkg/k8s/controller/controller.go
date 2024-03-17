@@ -10,7 +10,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/khulnasoft/tracee/pkg/k8s/apis/tracee.aquasec.com/v1beta1"
+	"github.com/khulnasoft/tracee/pkg/k8s/apis/tracee.khulnasoft.com/v1beta1"
 )
 
 // PolicyReconciler is the main controller for the Tracee Policy CRD. It is responsible
@@ -23,7 +23,7 @@ type PolicyReconciler struct {
 	TraceeName      string
 }
 
-// +kubebuilder:rbac:groups=tracee.aquasec.com,resources=policies,verbs=get;list;watch;
+// +kubebuilder:rbac:groups=tracee.khulnasoft.com,resources=policies,verbs=get;list;watch;
 // +kubebuilder:rbac:groups=apps,resources=daemonsets,verbs=get;list;watch;patch;update;
 
 // Reconcile is where the reconciliation logic resides. Every time a change is detected in

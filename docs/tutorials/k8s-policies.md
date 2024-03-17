@@ -56,7 +56,7 @@ Data
 ====
 signatures.yaml:
 ----
-apiVersion: tracee.aquasec.com/v1beta1
+apiVersion: tracee.khulnasoft.com/v1beta1
 kind: Policy
 metadata:
 	name: signature-events
@@ -113,7 +113,7 @@ To add a new policy for tracking execve events, add the following YAML block bef
 ```yaml
 data:
   events.yaml: |-
-    apiVersion: tracee.aquasec.com/v1beta1
+    apiVersion: tracee.khulnasoft.com/v1beta1
     kind: Policy
     metadata:
         name: execve-event

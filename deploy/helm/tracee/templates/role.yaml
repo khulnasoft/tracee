@@ -15,7 +15,7 @@ rules:
   - update
   - watch
 - apiGroups:
-  - tracee.aquasec.com
+  - tracee.khulnasoft.com
   resources:
   - policies
   verbs:
