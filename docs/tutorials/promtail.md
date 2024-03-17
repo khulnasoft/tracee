@@ -4,7 +4,7 @@ By default, Tracee is emitting events to stdout. Users can then configure loggin
 
 This tutorial will showcase how to install and configure Promtail, Loki, Grafana and Prometheus to then access Tracee logs from the cluster in Grafana.
 
-If you prefer the video tutorial, check out the tutorial below on the Aqua Open Source YouTube channel:
+If you prefer the video tutorial, check out the tutorial below on the Khulnasoft Open Source YouTube channel:
 
  Grafana Loki to access Tracee logs 
   [![Watch the video](../images/lokitut.png)](https://youtu.be/mMC9-yzbgpE?si=6C0emOEJJ5K4ACqB)

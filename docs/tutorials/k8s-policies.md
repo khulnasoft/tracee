@@ -13,7 +13,7 @@ Before you begin, ensure that you have the following:
 
 To install Tracee using Helm, follow these steps:
 
-Add the Aqua Security Helm repository:
+Add the Khulnasoft Security Helm repository:
 
 ```console
 helm repo add aqua https://khulnasoft.github.io/helm-charts/

@@ -55,7 +55,7 @@ If you run into any trouble using Tracee or you would like to give use user feed
 
 Find more information on [contribution documentation](https://khulnasoft.github.io/tracee/latest/contributing/overview/).
 
-## More about Aqua Security
+## More about Khulnasoft Security
 
-Tracee is an [Aqua Security](https://khulnasoft.com) open source project.  
+Tracee is an [Khulnasoft Security](https://khulnasoft.com) open source project.  
 Learn about our open source work and portfolio [here](https://www.khulnasoft.com/products/open-source-projects/).
