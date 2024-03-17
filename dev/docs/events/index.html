@@ -13816,7 +13816,7 @@
 <h2 id="configuring-tracee-events">Configuring Tracee Events<a class="headerlink" href="#configuring-tracee-events" title="Permanent link">&para;</a></h2>
 <p>Events are defined in the <a href="../policies/">Policy</a> YAML manifest. </p>
 <p>Tracing the <code>execve</code> events in a <a href="../policies/">policy</a>:</p>
-<div class="highlight"><pre><span></span><code>apiVersion: tracee.aquasec.com/v1beta1
+<div class="highlight"><pre><span></span><code>apiVersion: tracee.khulnasoft.com/v1beta1
 kind: Policy
 metadata:
     name: sample-policy
@@ -13833,7 +13833,7 @@ spec:
 <h3 id="event-sets">Event Sets<a class="headerlink" href="#event-sets" title="Permanent link">&para;</a></h3>
 <p>Events can be part of a set. For example, <code>default</code>, <code>network_events</code>, <code>syscalls</code>. 
 We can ask Tracee to trace a full set, or sets, instead of passing event by event, for example:</p>
-<div class="highlight"><pre><span></span><code>apiVersion: tracee.aquasec.com/v1beta1
+<div class="highlight"><pre><span></span><code>apiVersion: tracee.khulnasoft.com/v1beta1
 kind: Policy
 metadata:
     name: sample-policy
